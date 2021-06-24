@@ -6,7 +6,7 @@ name: Deploy HTML Files to APP_SERVICE_CMST385
 on:
   push:
     branches:
-    - master
+      - master
 
 jobs:
   build-and-deploy:
