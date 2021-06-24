@@ -14,3 +14,4 @@ jobs:
         app-name: 'CMST-FDowell'
         slot-name: 'production'
         publish-profile: ${{ secrets.APP_SERVICE_CMST385 }}
+        
