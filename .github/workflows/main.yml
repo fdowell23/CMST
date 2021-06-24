@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Deploy to Azure Web App
-    - uses: azure/webapps-deploy@v1
+      uses: azure/webapps-deploy@v1
       with:
         app-name: 'CMST-FDowell'
         slot-name: 'production'
